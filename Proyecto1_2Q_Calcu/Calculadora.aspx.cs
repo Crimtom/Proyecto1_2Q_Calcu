@@ -136,6 +136,11 @@ namespace webCalculadora1
 
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         protected void Bcalcular_Click(object sender, EventArgs e)
         {
 

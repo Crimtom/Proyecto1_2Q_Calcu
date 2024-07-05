@@ -94,20 +94,25 @@
                         <br />
                         </td>
                     <td>
-                        <asp:Button ID="b1" runat="server" Text="1" OnClick="b1_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="b2" runat="server" Text="2" OnClick="b2_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="b3" runat="server" Text="3" OnClick="b3_Click" />
-                  &nbsp;&nbsp;&nbsp;
-                  <asp:Button ID="b4" runat="server" Text="4" />
-&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;<asp:Button ID="b1" runat="server" Text="1" OnClick="b1_Click" />
+                        &nbsp;
+<asp:Button ID="b2" runat="server" Text="2" OnClick="b2_Click" />
+                        &nbsp;&nbsp;<asp:Button ID="b3" runat="server" Text="3" OnClick="b3_Click" />
+                        &nbsp;&nbsp;<asp:Button ID="b4" runat="server" Text="4" />
+                        &nbsp;
+                  &nbsp;<asp:Button ID="b5" runat="server" Text="5" />
+                        &nbsp;&nbsp;<asp:Button ID="b6" runat="server" Text="6" />
+&nbsp;<asp:Button ID="b7" runat="server" Text="7" />
+                        &nbsp;<asp:Button ID="b8" runat="server" Text="8" />
+                        &nbsp;<asp:Button ID="b9" runat="server" Text="9" />
+                        <asp:Button ID="b0" runat="server" Text="0" />
+                        <br />
                         <br />
                         &nbsp;&nbsp;
-                        <asp:Button ID="bsuma" runat="server" Text="+" OnClick="bsuma_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:Button ID="bigual" runat="server" Text="=" OnClick="bigual_Click" />
                         &nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="bsuma" runat="server" Text="+" OnClick="bsuma_Click" />
                         <asp:Button ID="bc" runat="server" Text="C" OnClick="bc_Click" />
                     </td>
                 </tr>
