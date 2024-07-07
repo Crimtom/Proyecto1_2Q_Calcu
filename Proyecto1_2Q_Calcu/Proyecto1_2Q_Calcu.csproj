@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Articulos.aspx" />
+    <Content Include="Calculadora Proyecto\Menu\CSS\StyleSheet1.css" />
+    <Content Include="Calculadora Proyecto\Menu\menu_proyecto.aspx" />
     <Content Include="Calculadora.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="homeicono.png" />
@@ -85,6 +87,14 @@
     </Compile>
     <Compile Include="Articulos.aspx.designer.cs">
       <DependentUpon>Articulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculadora Proyecto\calcu_metodos.cs" />
+    <Compile Include="Calculadora Proyecto\Menu\menu_proyecto.aspx.cs">
+      <DependentUpon>menu_proyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculadora Proyecto\Menu\menu_proyecto.aspx.designer.cs">
+      <DependentUpon>menu_proyecto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Calculadora.aspx.cs">
       <DependentUpon>Calculadora.aspx</DependentUpon>
@@ -125,6 +135,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
