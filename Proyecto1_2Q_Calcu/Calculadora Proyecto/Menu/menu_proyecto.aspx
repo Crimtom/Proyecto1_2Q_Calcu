@@ -16,7 +16,17 @@
                 <h2>Calculadora Web</h2>
                 <h5>Adrian Gutiérrez Carballo   Alessandro Arce Chaves  Johan Andrey Ortega león</h5>
             </header>
+            <article>
 
+                <asp:TextBox ID="Tvalor1" runat="server" Height="31px" Width="237px"></asp:TextBox>
+                <br /><br /><br />
+                <asp:TextBox ID="TextBox2" runat="server" Height="31px" Width="237px"></asp:TextBox>
+                <br /><br />
+
+
+            </article>
+            <asp:Label ID="Lresultado" runat="server" Text="Resultado:"></asp:Label>
+            <br /><br />
             <section>
 
                 <asp:Button ID="Braiz" runat="server" OnClick="Button1_Click" Text="√" Height="40px" Width="43px" />
